@@ -1,0 +1,1 @@
+# Sample Spring Boot Application designed for deployment onto the OpenShift Container Platform
