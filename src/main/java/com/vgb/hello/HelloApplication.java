@@ -11,12 +11,12 @@ import java.util.Date;
 @SpringBootApplication
 public class HelloApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(HelloApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(HelloApplication.class, args);
+	}
 
     @RequestMapping("/hi")
-    public String greet() {
-        return "Hello at " + new Date();
-    }
+	public String greet() {
+		return "Hello at " + new Date();
+	}
 }
